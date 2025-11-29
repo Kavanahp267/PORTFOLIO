@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KAVANA H P — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV / HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">Online Portfolio</div>
+        <div class="tag">Just another My Blog site</div>
+      </div>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Works</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h2 class="hero-sub">Computer Science and Engineering Student</h2>
+        <h1 class="hero-title">KAVANA H P</h1>
+        <p class="hero-desc">I’m a 3rd year student passionate about web development, problem solving and learning new tech. Building small projects to level up my skills.</p>
+        <a class="btn btn-primary" href="#contact">Hire Me</a>
+      </div>
+
+      <div class="hero-right">
+        <!-- large decorative photo on right (placeholder) -->
+        <img src="images/avatar.png" alt="Profile Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container about-inner">
+      <div class="about-photo">
+        <img src="images/avatar.png" alt="Profile Image">
+      </div>
+
+      <div class="about-content">
+        <h2>ABOUT ME</h2>
+        <p class="about-lead">
+          I am Kavana H P from Tumkur, Karnataka, currently pursuing B.E in
+          Computer Science and Engineering. I love working on web development,
+          problem-solving tasks and developing intelligent solutions.
+
+        <p>I like to explore frontend technologies (HTML, CSS, JavaScript) and practice small projects such as portfolio pages, to-do apps and small utilities. I'm keen on teamwork, learning from others and preparing myself for internships and real-world projects.</p>
+
+        <a class="btn btn-outline" href="resume.pdf" download>DOWNLOAD RESUME</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>SKILLS</h2>
+      <div class="skills-grid">
+        <span class="skill">Python</span>
+        <span class="skill">c</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Git & GitHub</span>
+        <span class="skill">Excel </span>
+        <span class="skill">SQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>PROJECTS</h2>
+
+      <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+        <img src="images/portfolio.png" alt="Portfolio Project">
+        <h3>Portfolio Website</h3>
+        <p>A clean and responsive personal portfolio built using HTML and CSS. It highlights my skills, education, and projects in a simple and attractive layout.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <img src="images/landingpage.png" alt="Landing Page">
+        <h3>Landing Page</h3>
+        <p>A modern landing page design with smooth layout and clear call-to-actions. Built using HTML, CSS, and beginner-level JavaScript elements.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+        <img src="images/calculator.png" alt="Calculator ">
+        <h3>Simple Calculator</h3>
+        <p>A functional calculator created using HTML, CSS, and JavaScript. Supports basic arithmetic operations with a user-friendly interface.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+  </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="resume">
+    <div class="container resume-inner">
+      <h2>Resume</h2>
+      <p>Download a PDF copy of my resume for education details, projects and contact information.</p>
+      <a class="btn btn-primary" href="resume.pdf" download>Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container contact-inner">
+      <div class="contact-card">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:kavanahp267c@gmail.com">kavanahp267c@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918296824336">+91 82968 24336</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kavana-h-p-431438295">Visit Profile</a></p>
+
+        <p>If you'd like to message me directly, use this quick form (opens your email):</p>
+        <a class="btn btn-outline" href="mailto:kavanahp267c@gmail.com?subject=Portfolio%20Contact&body=Hi%20Kavana%2C%0A%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch.">Send Email</a>
+      </div>
+
+      <div class="contact-note">
+        <p>Location: India</p>
+        <p>Available for internships and collaborative student projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> KAVANA H P | All Rights Reserved.</div>
+      <div class="social">
+        <a href="#" aria-label="github">GitHub</a> •
+        <a href="#" aria-label="https://www.linkedin.com/in/kavana-h-p-431438295">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JS for nav toggle and year -->
+  <script>
+    // mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const nav = document.querySelector('.nav');
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
